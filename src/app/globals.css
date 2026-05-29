@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    @apply bg-gold-200 text-ink;
+  }
+
+  /* Display headings use the serif face for the editorial feel. */
+  h1,
+  h2,
+  h3 {
+    @apply font-serif;
+  }
+
+  a {
+    text-underline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Thin gold rule used to separate editorial sections. */
+  .rule-gold {
+    @apply h-px w-full bg-gradient-to-r from-gold-200 via-line to-transparent;
+  }
+}
