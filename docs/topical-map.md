@@ -33,6 +33,16 @@ first cornerstones; the rest is the runway.
 | `what-moves-the-price-of-gold` | Quality node (prices pillar) | Published |
 | `gold-ira-rollover-guide` | Quality node (retirement pillar) | Published |
 
+## Supporting articles shipped (seeds/nodes linking back to the root)
+
+| Slug | Pillar | Links up to |
+| --- | --- | --- |
+| `spot-price-vs-premium` | Buying / Prices | how-to-buy, what-moves |
+| `gold-coins-vs-bars` | Buying | how-to-buy, how-to-store |
+| `how-to-store-gold` | Buying | how-to-buy, gold-ira |
+| `gold-vs-silver` | Precious metals (outer) | how-to-buy, what-moves |
+| `is-gold-a-good-investment` | Prices / Context | what-moves, how-to-buy |
+
 ## Backlog (raw topical map — entity + attribute pairs)
 
 Group by macro context. Each becomes a brief, then an article. Publish with
