@@ -9,6 +9,13 @@
 
 import Link from "next/link";
 import type { AnchorHTMLAttributes, ComponentType, ReactNode } from "react";
+import {
+  FlowSteps,
+  FactGrid,
+  GoldIraFlow,
+  GoldPriceStack,
+  GoldPriceForces,
+} from "@/components/visuals";
 
 /** Loose component map accepted by MDXRemote's `components` prop. */
 type MdxComponentMap = Record<string, ComponentType<Record<string, unknown>>>;
@@ -77,4 +84,9 @@ export const mdxComponents = {
   a: MdxLink,
   Callout,
   Figure,
+  FlowSteps,
+  FactGrid,
+  GoldIraFlow,
+  GoldPriceStack,
+  GoldPriceForces,
 } as unknown as MdxComponentMap;
